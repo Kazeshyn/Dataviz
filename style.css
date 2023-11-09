@@ -4,70 +4,210 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     background: #303972;
     margin: 0;
 }
 
+/*page accueil*/
 .accueil {
+    height:100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
     grid-column-gap: 141px;
     grid-row-gap: 141px;
-    margin-right:108px;
-    margin-left:108px;
-    margin-top:100px;
-    height:100vh;
+    margin-right: 108px;
+    margin-left: 108px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
 }
 
 
-h1{ 
+h1 {
     color: #FFF;
     font-family: 'Kanit', sans-serif;
-    font-size:9vw;
-    border-bottom:5px solid white;
-    border-bottom-width: 487px;
-    border-bottom-width: 8px;
-      
+    font-size: 9vw;
+    border-bottom: 8px solid white;
+    margin-bottom: 21px;
+
 }
 
-p{
-    margin-top: -90px; 
+p {
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.6vw;
+
+}
+
+img {
+    margin: auto;
+    width: 100%;
+    height: auto;
+
+}
+
+/*1er section*/
+
+.poprock{
+    height:100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    margin-right: 108px;
+    margin-left: 108px;
+    margin-top:50px;
+    margin-bottom:50px;
+
+}
+
+h2 {
+    color: #FFF;
+    font-family: 'Kanit', sans-serif;
+    font-size: 2vw;
+    border-bottom: 5px solid white;
+    border-bottom-width: 100%;
+    border-bottom: 31.25%;
+
+
+}
+
+.popmusic {
+    width: 85%;
+    height: auto;
+    border-radius: 22px;
+    
+
+
+}
+
+.poptext {
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.13vw;
+
+}
+
+
+.rockmusic {
+    width: 75%;
+    height: auto;
+    border-radius: 22px;
+    
+
+}
+
+
+.rocktext {
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.13vw;
+}
+
+/*graphique*/
+
+/*Constats*/
+
+.constats{
+   
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 120px;
+    grid-row-gap: 0px;
+    margin-top:100px;
+    margin-bottom:100px;
+    margin-left:100px;
+    margin-right:100px;
+    place-items:center;
+
+}
+
+.titre-constats {
+        color: white;
+        font-family: 'Kanit', sans-serif;
+        font-size: 3vw;
+        border-bottom: 5px solid white;
+        border-bottom-width: 100%;
+        border-bottom: 31.25%;
+        margin-bottom: 21px;
+
+}
+
+.constatext p{
     color:white;
     font-family: 'Kanit', sans-serif;
-    font-size:1.6em;
-    
-    
+    font-size: 1.17vw;
 }
 
-img{
-    margin: auto;
-    width:100%;
-    height:auto;
-    /* margin-right:108px; */
-}
-
-
-.musique-pop {
+/*A Propos*/
+.A-propos {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr;
-    grid-column-gap: 141px;
-    grid-row-gap: 141px;
-    margin-right:108px;
-    margin-left:108px;
-    margin-top:100px; 
-    height:100vh; 
+    grid-template-columns: 1fr; 
+    grid-template-rows: 1fr; 
+    justify-items: center; 
+    margin-left: 98px;
+    margin-right: 98px;
+    margin-top:100px;
+    margin-bottom:100px;
 }
 
-h2{ 
-    color: #FFF;
+.titre-apropo {
+    color: white;
     font-family: 'Kanit', sans-serif;
-    font-size:2vw;
-    border-bottom:5px solid white;
-    border-bottom-width: 10px;
-    border-bottom-width: 5px;
-      
+    font-size: 3vw;
+    border-bottom: 5px solid white;
+    border-bottom-width: 50%; 
+    margin-bottom: 90px;
 }
 
+.logo-minia {
+    width: 130px;
+    height: 126px;
+    flex-shrink: 0; 
+    position : relative;
+    top:0;
+    right:0;
+}
+
+.A-propos p {
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.17vw;
+}
+
+/*Final*/
+.finale{
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 56px;
+    grid-row-gap: 0px;
+    margin-right:100px;
+    margin-left:100px;
+    
+   
+}
+
+
+.logo-final{
+    display:grid;
+    place-items:center;
+    width: 378px;
+    height: 366px;
+    margin-top:20px;
+    margin-bottom:20px;
+    
+
+
+}
+
+.finale p {
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.17vw;
+}

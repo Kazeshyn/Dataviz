@@ -108,7 +108,17 @@ h2 {
 }
 
 /*graphique*/
+.dim{
+    width: 13%;
+    height: 53px;
+}
 
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
 /*Constats*/
 
 .constats{

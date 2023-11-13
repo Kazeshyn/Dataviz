@@ -108,6 +108,26 @@ h2 {
 }
 
 /*graphique*/
+.stat{
+    height:100%;
+
+}
+
+.graphic{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin-top:100px;
+    margin-bottom:100px;
+    margin-left:100px;
+    margin-right:100px;
+    
+}
+
+
+
 .dim{
     width: 13%;
     height: 53px;
@@ -119,8 +139,21 @@ nav{
     justify-content: center;
     
 }
-/*Constats*/
 
+.titre-graphic{
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top:70px;
+    display:flex;
+}
+
+
+
+
+/*Constats*/
+.constats{
+    height:100vh;
+}
 .constats{
    
     display: grid;

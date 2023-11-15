@@ -165,10 +165,6 @@ nav{
 
 
 /*légende*/
-.legende{
-    
-}
-
 .titre-legende{
     color: white;
     font-family: 'Kanit', sans-serif;
@@ -198,7 +194,6 @@ nav{
 }
 
 /*graphic*/
-
 .titre-graphic{
     margin-right: 100px;
     margin-left: 100px;
@@ -212,12 +207,28 @@ nav{
     font-size: 1.17vw;
 }
 
-
+/*iframe*/
 iframe{
     margin-bottom:10px;
     margin-left:50px;
  
 }
+
+.titre-iframe-pop, 
+.titre-iframe-rock{
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.17vw;
+    text-align:center;
+    text-decoration:underline #02DED8 ;
+    
+    
+    
+}
+
+
+
+
 
 /* #my_dataviz{
     display:flex;

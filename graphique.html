@@ -8,23 +8,31 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
     <title>Graphique</title>
+    <script src="https://d3js.org/d3.v6.js"></script>
+    <script src="./script.js" defer></script>
 </head>
 <body>
     <section class="stat">
         <nav>
-            <img src="image/1979.svg" alt="info-1979"class="dim" id="1979">
+            <!-- <img src="image/1979.svg" alt="info-1979"class="dim" id="1979">
             <img src="image/1983.svg" alt="info-1983"class="dim" id="1983">
             <img src="image/1989.svg" alt="info-1989"class="dim" id="1989">
             <img src="image/1994.svg" alt="info-1994"class="dim" id="1994">
             <img src="image/1999.svg" alt="info-1999"class="dim" id="1999">
-            <img src="image/2004.svg" alt="info-2004"class="dim" id="2004">          
+            <img src="image/2004.svg" alt="info-2004"class="dim" id="2004">           -->
+            <button class="dim" data-annee="1979">1979</button>
+            <button class="dim" data-annee="1983">1983</button>
+            <button class="dim" data-annee="1989">1989</button>
+            <button class="dim" data-annee="1994">1994</button>
+            <button class="dim" data-annee="1999">1999</button>
+            <button class="dim" data-annee="2004">2004</button>
         </nav>
         <h2 class="titre-graphic">Popularité de la musique POP et Rock de 1979 a 2004 au Québec</h2>
         <div class="graphic">
             <!-- graphic -->
             <div>
                 <div id="my_dataviz"></div>
-                <script src="https://d3js.org/d3.v6.js"></script>
+                
                 <p>Source :</p>
 
             </div>
@@ -49,5 +57,4 @@
 
     </section> 
 </body>
-<script src="./script.js"></script>
 </html>

@@ -1,50 +1,62 @@
 [
     {
-        "year": "1979",
-        "value0": "50.2",
-        "value1": "49.8",
-        "song1": "<iframe width='809' height='455' src='https://www.youtube.com/embed/cB7Jp3Dt0U8' title='Ginette Reno &#39;&#39;Je ne suis qu&#39;une chanson&#39;&#39; TV, 1980' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>",
-        "song2": "<iframe style='border-radius:12px' src='https://open.spotify.com/embed/track/3pyksSxHfEQWwRmgDmE2pp?utm_source=generator' width='100%' height='152' frameBorder='0' allowfullscreen='' allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture' loading='lazy'></iframe>",
-        "sources": "https://www.journaldemontreal.com/2022/06/25/les-100-meilleures-chansons-de-lhistoire-du-quebec"
+        "year": 1979,
+        "popRock": 50.2,
+        "allOthers": 49.8,
+        "songPop": "<iframe width='809' height='455' src='https://www.youtube.com/embed/cB7Jp3Dt0U8' title='Ginette Reno &#39;&#39;Je ne suis qu&#39;une chanson&#39;&#39; TV, 1980' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>",
+        "songRock": "<iframe style='border-radius:12px' src='https://open.spotify.com/embed/track/3pyksSxHfEQWwRmgDmE2pp?utm_source=generator' width='100%' height='152' frameBorder='0' allowfullscreen='' allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture' loading='lazy'></iframe>",
+        "sources": [
+            "https://www.journaldemontreal.com/2022/06/25/les-100-meilleures-chansons-de-lhistoire-du-quebec"
+        ]
     },
     {
-        "year": "1983",
-        "value0": "62.4",
-        "value1": "48.6",
-        "song1": "<iframe width='699' height='466' src='https://www.youtube.com/embed/YOmFWhcvU_k' title='Véronique Béliveau&#39;&#39;Je suis fidèle&#39;&#39; Live, 1983' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>",
-        "song2": "<iframe style='border-radius:12px' src='https://open.spotify.com/embed/track/5oZ2YnJxTXl7CdJJKehPHR?utm_source=generator&theme=0' width='100%' height='152' frameBorder='0' allowfullscreen='' allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture' loading='lazy'></iframe>",
-        "sources": "https://francomusique.ca/2020/04/02/la-musique-en-1983/"
+        "year": 1983,
+        "popRock": 62.4,
+        "allOthers": 48.6,
+        "songPop": "<iframe width='699' height='466' src='https://www.youtube.com/embed/YOmFWhcvU_k' title='Véronique Béliveau&#39;&#39;Je suis fidèle&#39;&#39; Live, 1983' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>",
+        "songRock": "<iframe style='border-radius:12px' src='https://open.spotify.com/embed/track/5oZ2YnJxTXl7CdJJKehPHR?utm_source=generator&theme=0' width='100%' height='152' frameBorder='0' allowfullscreen='' allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture' loading='lazy'></iframe>",
+        "sources": [
+            "https://francomusique.ca/2020/04/02/la-musique-en-1983/"
+        ]
     },
     {
-        "year": "1989",
-        "value0": "48.1",
-        "value1": "52.9",
-        "song1": "<iframe style='border-radius:12px' src='https://open.spotify.com/embed/track/6td3qu6EQ13cUFfrXQfi1V?utm_source=generator' width='100%' height='152' frameBorder='0' allowfullscreen='' allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture' loading='lazy'></iframe>",
-        "song2": "<iframe style='border-radius:12px' src='https://open.spotify.com/embed/track/7DFawVSjI88xR9mjnWwURg?utm_source=generator' width='100%' height='152' frameBorder='0' allowfullscreen='' allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture' loading='lazy'></iframe>",
-        "sources": "https://www.philouzone.com/post/palmarès-québécois-de-1989-atteint-1-à-3-vol-02-vidéoclips-des-chansons-les-plus-populaire | https://francomusique.ca/2020/04/18/la-musique-en-1989/"
+        "year": 1989,
+        "popRock": 48.1,
+        "allOthers": 52.9,
+        "songPop": "<iframe style='border-radius:12px' src='https://open.spotify.com/embed/track/6td3qu6EQ13cUFfrXQfi1V?utm_source=generator' width='100%' height='152' frameBorder='0' allowfullscreen='' allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture' loading='lazy'></iframe>",
+        "songRock": "<iframe style='border-radius:12px' src='https://open.spotify.com/embed/track/7DFawVSjI88xR9mjnWwURg?utm_source=generator' width='100%' height='152' frameBorder='0' allowfullscreen='' allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture' loading='lazy'></iframe>",
+        "sources": [
+            "https://www.philouzone.com/post/palmarès-québécois-de-1989-atteint-1-à-3-vol-02-vidéoclips-des-chansons-les-plus-populaire | https://francomusique.ca/2020/04/18/la-musique-en-1989/"
+        ]
     },
     {
-        "year": "1994",
-        "value0": "31.3",
-        "value1": "68.7",
-        "song1": "<iframe style='border-radius:12px' src='https://open.spotify.com/embed/track/78Mu8RKUTFIg4h8921ofVS?utm_source=generator' width='100%' height='152' frameBorder='0' allowfullscreen='' allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture' loading='lazy'></iframe>",
-        "song2": "<iframe width='1481' height='546' src='https://www.youtube.com/embed/Mfn9zpt487o' title='TANGO TANGO - Épargne-moi (Vidéo Officiel) 1992' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>",
-        "sources": "https://www.philouzone.com/post/palmarès-québécois-de-1989-atteint-1-à-3-vol-02-vidéoclips-des-chansons-les-plus-populaire | https://www.adisq.com/gala/archives/1994/"
+        "year": 1994,
+        "popRock": 31.3,
+        "allOthers": 68.7,
+        "songPop": "<iframe style='border-radius:12px' src='https://open.spotify.com/embed/track/78Mu8RKUTFIg4h8921ofVS?utm_source=generator' width='100%' height='152' frameBorder='0' allowfullscreen='' allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture' loading='lazy'></iframe>",
+        "songRock": "<iframe width='1481' height='546' src='https://www.youtube.com/embed/Mfn9zpt487o' title='TANGO TANGO - Épargne-moi (Vidéo Officiel) 1992' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>",
+        "sources": [
+            "https://www.philouzone.com/post/palmarès-québécois-de-1989-atteint-1-à-3-vol-02-vidéoclips-des-chansons-les-plus-populaire | https://www.adisq.com/gala/archives/1994/"
+        ]
     },
     {
-        "year": "1999",
-        "value0": "31.2",
-        "value1": "68.8",
-        "song1": "<iframe style='border-radius:12px' src='https://open.spotify.com/embed/track/0Ph6L4l8dYUuXFmb71Ajnd?utm_source=generator' width='100%' height='152' frameBorder='0' allowfullscreen='' allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture' loading='lazy'></iframe>",
-        "song2": "<iframe style='border-radius:12px' src='https://open.spotify.com/embed/track/6W21LNLz9Sw7sUSNWMSHRu?utm_source=generator' width='100%' height='152' frameBorder='0' allowfullscreen='' allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture' loading='lazy'></iframe>",
-        "sources": "http://powhertz.com/mus2k4.html"
+        "year": 1999,
+        "popRock": 31.2,
+        "allOthers": 68.8,
+        "songPop": "<iframe style='border-radius:12px' src='https://open.spotify.com/embed/track/0Ph6L4l8dYUuXFmb71Ajnd?utm_source=generator' width='100%' height='152' frameBorder='0' allowfullscreen='' allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture' loading='lazy'></iframe>",
+        "songRock": "<iframe style='border-radius:12px' src='https://open.spotify.com/embed/track/6W21LNLz9Sw7sUSNWMSHRu?utm_source=generator' width='100%' height='152' frameBorder='0' allowfullscreen='' allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture' loading='lazy'></iframe>",
+        "sources": [
+            "http://powhertz.com/mus2k4.html"
+        ]
     },
     {
-        "year": "2004",
-        "value0": "28.4",
-        "value1": "71.6",
-        "song1": "<iframe style='border-radius:12px' src='https://open.spotify.com/embed/track/6sqNctd7MlJoKDOxPVCAvU?utm_source=generator' width='100%' height='152' frameBorder='0' allowfullscreen='' allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture' loading='lazy'></iframe>",
-        "song2": "<iframe style='border-radius:12px' src='https://open.spotify.com/embed/track/1gVVSmhWjci8l9Vrsl6HaS?utm_source=generator' width='100%' height='152' frameBorder='0' allowfullscreen='' allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture' loading='lazy'></iframe>",
-        "sources": "http://powhertz.com/mus2k4.html"
+        "year": 2004,
+        "popRock": 28.4,
+        "allOthers": 71.6,
+        "songPop": "<iframe style='border-radius:12px' src='https://open.spotify.com/embed/track/6sqNctd7MlJoKDOxPVCAvU?utm_source=generator' width='100%' height='152' frameBorder='0' allowfullscreen='' allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture' loading='lazy'></iframe>",
+        "songRock": "<iframe style='border-radius:12px' src='https://open.spotify.com/embed/track/1gVVSmhWjci8l9Vrsl6HaS?utm_source=generator' width='100%' height='152' frameBorder='0' allowfullscreen='' allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture' loading='lazy'></iframe>",
+        "sources": [
+            "http://powhertz.com/mus2k4.html"
+        ]
     }
 ]

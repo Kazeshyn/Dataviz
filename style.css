@@ -165,7 +165,37 @@ nav{
 
 
 /*légende*/
+.legende{
+    
+}
 
+.titre-legende{
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.17vw;
+    text-decoration:underline;
+
+}
+
+.bleu-poprock{
+    width: 25px; /* Remplacez cette valeur par la largeur souhaitée */
+    height: 20px; 
+    border-radius:5px;/* Remplacez cette valeur par la hauteur souhaitée */
+    background-color:#02DED8;
+    float: left;
+}
+
+.rouge-others{
+    width: 25px; /* Remplacez cette valeur par la largeur souhaitée */
+    height: 20px; 
+    border-radius:5px;/* Remplacez cette valeur par la hauteur souhaitée */
+    background-color:#FF3030;
+    float: left;
+}
+
+.text-legende{
+    margin-left:40px;
+}
 
 /*graphic*/
 

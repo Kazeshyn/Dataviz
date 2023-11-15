@@ -39,7 +39,7 @@ function drawPieChart(yearObject) {
 
   const radius = Math.min(width, height) / 2 - margin;
 
-  // a faire avec d3 plutôt...
+  // a faire avec d3 plutôt... voir https://d3-graph-gallery.com/graph/pie_changeData.html
   document.getElementById('my_dataviz').innerHTML = '';
 
   const svg = d3.select("#my_dataviz")

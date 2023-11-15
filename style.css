@@ -149,7 +149,7 @@ h2 {
 }
 
 .dim:active {
-    background-color:rgb(124, 47, 195);;
+    background-color:rgb(124, 47, 195);
 }
 
 
@@ -209,7 +209,7 @@ nav{
 
 /*iframe*/
 iframe{
-    margin-bottom:10px;
+    margin-bottom:px;
     margin-left:50px;
  
 }
@@ -221,14 +221,8 @@ iframe{
     font-size: 1.17vw;
     text-align:center;
     text-decoration:underline #02DED8 ;
-    
-    
-    
+   
 }
-
-
-
-
 
 /* #my_dataviz{
     display:flex;

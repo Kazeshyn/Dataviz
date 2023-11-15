@@ -130,9 +130,29 @@ h2 {
     width: 11%;
     height: 53px;
     margin:0;
-
-   
+    background-color:#DC30F9;
+    font-family: 'Kanit', sans-serif;
+    font-size:2vw;
+    color:white;
+    text-shadow: 5px 5px 5px black;
+    border-radius:18px;
+    cursor:pointer;
+     
 }
+
+
+/* Ajoutez des styles supplémentaires ou remplacez des styles spécifiques si nécessaire */
+.dim:hover {
+    background-color:blueviolet;
+}
+
+.dim:active {
+    background-color:blueviolet;
+}
+
+
+
+
 
 nav{
     display:flex;
@@ -142,6 +162,8 @@ nav{
     
     
 }
+
+
 
 .titre-graphic{
     margin-right: 100px;

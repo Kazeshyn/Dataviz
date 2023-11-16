@@ -264,6 +264,14 @@ iframe {
 	font-size: 1.17vw;
 }
 
+.mention-legale-titre{
+	color:white ;
+	font-family: 'Kanit', sans-serif;
+	font-size: 1.17vw;
+	text-decoration-line: underline;
+
+}
+
 /*Final*/
 .finale {
 	display: grid;

@@ -12,6 +12,7 @@ fetch('data.json')
       // console.log(yearObject)
       drawPieChart(yearObject);
       displayIframesByYear(yearObject);
+      displaySources(yearObject);
       // fillRect(yearObject)
     })
   });
@@ -78,5 +79,17 @@ function displayIframesByYear(yearObject) {
 
   if (iframeRockElement) {
     iframeRockElement.innerHTML = `<div class="iframerock">${iframeRock}</div>`;
+  }
+}
+
+function displaySources(yearObject) {
+  // Recherche des iframes dans le JSON
+  const musicSources = yearObject.sources;
+
+  // Mise à jour des iframes dans le HTML
+  const paragrapheSources = document.querySelector('.sourcelink'); // Remplacez par la classe réelle
+
+  if (paragrapheSources) {
+    paragrapheSources.innerHTML = `<p class="sourcelink">Source : ${musicSources}</p>`;
   }
 }

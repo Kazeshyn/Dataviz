@@ -7,6 +7,8 @@
     <title>Q_Data</title>
     <link rel="icon" type="image/x-icon" href="image/logo.svg">
     <link rel="stylesheet" href="style.css">
+    <script src="https://d3js.org/d3.v6.js"></script>
+    <script src="./script.js" defer></script>
     <!---police d'écriture-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -53,20 +55,32 @@
 
     <section class="stat">
         <nav>
-            <img src="image/1979.svg" alt="info-1979"class="dim">
-            <img src="image/1983.svg" alt="info-1983"class="dim">
-            <img src="image/1989.svg" alt="info-1989"class="dim">
-            <img src="image/1994.svg" alt="info-1994"class="dim">
-            <img src="image/1999.svg" alt="info-1999"class="dim">
-            <img src="image/2004.svg" alt="info-2004"class="dim">          
+            <!-- <img src="image/1979.svg" alt="info-1979"class="dim" id="1979">
+            <img src="image/1983.svg" alt="info-1983"class="dim" id="1983">
+            <img src="image/1989.svg" alt="info-1989"class="dim" id="1989">
+            <img src="image/1994.svg" alt="info-1994"class="dim" id="1994">
+            <img src="image/1999.svg" alt="info-1999"class="dim" id="1999">
+            <img src="image/2004.svg" alt="info-2004"class="dim" id="2004">           -->
+            <button class="dim" data-annee="1979">1979</button>
+            <button class="dim" data-annee="1983">1983</button>
+            <button class="dim" data-annee="1989">1989</button>
+            <button class="dim" data-annee="1994">1994</button>
+            <button class="dim" data-annee="1999">1999</button>
+            <button class="dim" data-annee="2004">2004</button>
         </nav>
         <h2 class="titre-graphic">Popularité de la musique POP et Rock de 1979 a 2004 au Québec</h2>
         <div class="graphic">
             <!-- graphic -->
             <div>
                 <div id="my_dataviz"></div>
-                <script src="https://d3js.org/d3.v6.js"></script>
-                <p>Source :</p>
+                <div>
+                    <p class="titre-legende">Légende</p>
+                    <div class="bleu-poprock"></div><p class="text-legende">Pop et Rock</p>
+                    <div class="rouge-others"></div><p class="text-legende">Autres Genres</p>
+                    
+
+                </div>
+                <p>Source : Ministère de la culture et des communication</p>
 
             </div>
             
@@ -75,9 +89,13 @@
             <!-- song1 -->
             <div class="iframe">
                 <h2>Musiques populaires à cette date :</h2>
-                <iframe style='border-radius:12px' src='https://open.spotify.com/embed/track/5oZ2YnJxTXl7CdJJKehPHR?utm_source=generator&theme=0' width='80%' height='152' frameBorder='0' allowfullscreen='' allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture' loading='lazy'></iframe>
-                <iframe width='80%' height='152' src='https://www.youtube.com/embed/YOmFWhcvU_k' title='Véronique Béliveau&#39;&#39;Je suis fidèle&#39;&#39; Live, 1983' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>
-                <p>Source :</p>
+                <h3 class="titre-iframe-pop">♫ ♪ En Pop : </h3>
+                <div class="iframepop">
+                </div>
+                <h3 class="titre-iframe-rock">♫ ♪ En Rock : </h3>
+                <div class="iframerock">
+                </div>
+                <p class="sourcelink">Source :</p>
                 
             </div>
 
@@ -90,47 +108,8 @@
 
     </section> 
 
-    <section class="constats">
-        <div>
-            <h2 class="titre-constats">Nos Constats</h2>
-            <p>D’après les données</p>
-        </div>
-        <div class="constatext">
-            <p>	De 1979 à 2004, la musique Pop rock aura vue son succès en déclin au Québec. En effet, de 1979 à 1989, elle représente environ 50% des écoutes.<br>Après 1989, et ce jusqu’en 2004, elle à connue une baisse jusque 28.4% des écoutes au Québec. Soit une baisse de plus d’environ 20%.<br>L’année phare à donc été 1983, avec un taux de 62.4% des écoutes aux Québec par rapport aux autres styles musicaux.
-            </p>
-        </div>
-
-    </section>
-    <section class="A-propos">
-        <div>
-            <h2 class="titre-apropo">A propos<img src="image/logo-minia.svg" alt="" class="logo-minia"></h2>
-            <p>Ce site a pour but de répondre à un projet universitaire de deuxième année de BUT en métiers du multimédia et de l’internet de data visualisation.<br>Il compare la popularité de la musique pop et rock contre tous les styles musicaux au Québec.<br>Il utilise les langages, HTML5, CSS, et JavaScript dont les librairies d3 et GSAP.
-            </p>
-        </div>
-    </section>
-    <section class="finale">
-        <div><img src="image/logo.svg" alt="" class="logo-final"></div>
-        <p>L’intégralité des données utilisées pour les graphiques sont extraites d’une enquête du ministère de la culture et des communications du Québec incluse dans le documents intitulé “L’écoute et la consommation de la musique”  réalisée par Marie-Claude Lapointe professeure agrégée au Département d’études en loisir, culture et tourisme à l’Université du Québec à Trois-Rivières.
-        <br>
-        <br>
-        Les médias à disposition sont hébergés sur Youtube (voir conditions générales d’utilisations https://www.youtube.com/static?template=terms&hl=fr&gl=FR) ou sur Spotify (voir conditions générales d’utilisations https://www.spotify.com/fr/legal/end-user-agreement/).
-        <br>
-        <br>
-        Ce site à été réalisé par les éditeurs physiques MEROUANE Idriss en charge du développement du site ainsi qu’à la réalisation des éléments graphiques et la rédaction et par BOIREAU Nahina en charge du développement du site ainsi qu’à la réalisation des éléments graphiques et la rédaction.
-        <br>
-        <br>
-        Le site web est hébergé chez O2Switch, Chem. des Pardiaux, 63000 Clermont-Ferrand.
-        <br>
-        Aucune donnée personnelle n’est acquise, stockée ou traitée.
-            
-        </p>
-
-    </section>
-
 
 
 
 </body>
-<script src="script.js"></script>
-
 </html>

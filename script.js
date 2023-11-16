@@ -8,14 +8,15 @@ fetch('data.json')
       const year = parseInt(event.target.dataset.annee);
 
       const yearObject = jsonData.filter((obj) => obj.year === year)[0]
-      console.log(yearObject)
+
+      // console.log(yearObject)
       drawPieChart(yearObject);
+      displayIframesByYear(yearObject);
       // fillRect(yearObject)
     })
   });
 
 // INITIALISATION
-
 
 // FONCTIONS UTILITAIRES
 function drawPieChart(yearObject) {
@@ -31,7 +32,7 @@ function drawPieChart(yearObject) {
     .value(function(d) {return d[1]})
   const data_ready = pie(Object.entries(data))
 
-  console.log(data_ready);
+  // console.log(data_ready);
 
   const width = 450,
     height = 450,
@@ -59,4 +60,23 @@ function drawPieChart(yearObject) {
     .attr('fill', function(d){ return(color(d.data[1])) })
     .style("stroke-width", "2px")
     .style("opacity", 0.7)
+    
+}
+
+function displayIframesByYear(yearObject) {
+  // Recherche des iframes dans le JSON
+  const iframePop = yearObject.songPop;
+  const iframeRock = yearObject.songRock;
+
+  // Mise à jour des iframes dans le HTML
+  const iframePopElement = document.querySelector('.iframepop'); // Remplacez par la classe réelle
+  const iframeRockElement = document.querySelector('.iframerock'); // Remplacez par la classe réelle
+
+  if (iframePopElement) {
+    iframePopElement.innerHTML = `<div class="iframepop">${iframePop}</div>`;
+  }
+
+  if (iframeRockElement) {
+    iframeRockElement.innerHTML = `<div class="iframerock">${iframeRock}</div>`;
+  }
 }

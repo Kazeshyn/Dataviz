@@ -19,7 +19,7 @@ fetch('data.json')
 
 // INITIALISATION
 
-// FONCTIONS UTILITAIRES
+// Affichage des graphiques
 function drawPieChart(yearObject) {
   const data = {
     popRock: yearObject.popRock,
@@ -63,7 +63,7 @@ function drawPieChart(yearObject) {
     .style("opacity", 0.7)
     
 }
-
+//Affichage des iframes
 function displayIframesByYear(yearObject) {
   // Recherche des iframes dans le JSON
   const iframePop = yearObject.songPop;
@@ -81,7 +81,7 @@ function displayIframesByYear(yearObject) {
     iframeRockElement.innerHTML = `<div class="iframerock">${iframeRock}</div>`;
   }
 }
-
+//Afichage des sources du graphique
 function displaySources(yearObject) {
   // Recherche des iframes dans le JSON
   const musicSources = yearObject.sources;
@@ -93,3 +93,5 @@ function displaySources(yearObject) {
     paragrapheSources.innerHTML = `<p class="sourcelink">Source : ${musicSources}</p>`;
   }
 }
+
+//GSAP

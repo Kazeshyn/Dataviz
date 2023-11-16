@@ -94,7 +94,7 @@ function displaySources(yearObject) {
   }
 }
 
-//GSAP
+//Equalizer
 function makeDots(heights, gap, viewportHeight) {
   var svgNS = "http://www.w3.org/2000/svg";
   var eq = document.getElementById("eq");
@@ -170,3 +170,17 @@ var dotHeights = [5,5,6,6,5,4,4,4,6,6,8,6,7,8,9,8,7,7,7,8,9,10,11,11,12,11,10,10
 
 makeDots(dotHeights, 0.75, 50);
 animateDots(dotHeights);
+
+//GSAP h1 animation
+const maTimeline = gsap.timeline()
+
+maTimeline.fromTo('h1',{
+  x: 350,
+  opacity: 0
+},
+{
+  x: 0,
+  opacity: 1,
+  duration: 1
+}
+)

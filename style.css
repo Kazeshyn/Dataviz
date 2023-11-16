@@ -334,5 +334,28 @@ iframe{
     font-size: 1.17vw;
 }
 
-.eqContainer{position:absolute; z-index:-399; width: 40%; height: 85%;}
-.dot{fill:#005eff;}
+.eqContainer{
+    position:absolute;
+    z-index:-399;
+    width: 38.5%; 
+    height: 85%;
+}
+.dot{
+    fill:#005eff;
+}
+
+.line-1{
+    position: relative;
+    top: 50%;  
+    width: 20.18em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-box-sizing:content-box;
+    box-sizing:content-box;
+}

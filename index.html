@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,27 +9,22 @@
     <script src="https://d3js.org/d3.v6.js"></script>
     <script src="./script.js" defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/plugins/TextPlugin.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollTrigger/1.0.6/ScrollTrigger.min.js"></script>
     <!---police d'écriture-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
 </head>
-
 <body>
     <section class="accueil">
         <div>
-            <h1 id="#maintitle">Q_Data</h1>
+            <h1>Q_Data</h1>
             <p>Popularité de la musique POP<br>et Rock de 1979 à 2004 au Québec</p>
         </div>
         <div>
             <img src="image/logo.svg" alt="">
         </div>
-        <div class="eqContainer"><svg version="1.1" id="eq" xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0 0 100 50"
-                xml:space="preserve">
-            </svg>
+        <div class="eqContainer"><svg version="1.1" id="eq" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0 0 100 50" xml:space="preserve">
+        </svg>
         </div>
     </section>
     <section class="poprock">
@@ -69,10 +63,8 @@
                 <div id="my_dataviz"></div>
                 <div>
                     <p class="titre-legende">Légende</p>
-                    <div class="bleu-poprock"></div>
-                    <p class="text-legende">Pop et Rock</p>
-                    <div class="rouge-others"></div>
-                    <p class="text-legende">Autres Genres</p>
+                    <div class="bleu-poprock"></div><p class="text-legende">Pop et Rock</p>
+                    <div class="rouge-others"></div><p class="text-legende">Autres Genres</p>
                 </div>
                 <p>Source : Ministère de la culture et des communication</p>
             </div>
@@ -90,96 +82,82 @@
             </div>
         </div>
         <div>
-    </section>
-    <section class="constats">
-        <div>
-            <h2 class="titre-constats">Nos Constats</h2>
-            <p>D’après les données</p>
-        </div>
-        <div class="constatext">
-            <p>Lorem ipsum dolor sit amet consectetur. Nibh dignissim amet velit at enim enim scelerisque dictum mi.
-                Sollicitudin nisl porttitor nulla molestie hendrerit sed eget vitae. A amet sed amet erat pellentesque
-                viverra. Massa sed mauris purus pharetra faucibus dui. Sollicitudin vitae sit risus facilisis praesent
-                quis ultrices a.
-                In sodales malesuada eu justo. Faucibus amet nibh bibendum odio. Ac lectus pulvinar tristique mollis
-                sodales dapibus. Penatibus lacus nisl condimentum amet suscipit fermentum tristique nulla. Nisl nulla
-                nisl justo in nulla quis. Purus elementum ut.lorem Lorem ipsum dolor sit, amet consectetur adipisicing
-                elit. Laborum, possimus enim nemo fugiat molestiae saepe! Iure laboriosam repellat id aut. Laboriosam
-                cum eveniet quas alias nulla animi beatae architecto esse! Lorem ipsum dolor sit amet consectetur,
-                adipisicing elit. Id harum corporis assumenda amet quasi architecto, perferendis, blanditiis ullam
-                officiis saepe ipsum odio aliquam nostrum dolorum, fuga delectus accusamus minus deleniti.lorem Lorem
-                ipsum dolor sit amet, consectetur adipisicing elit. Maxime, ipsa aspernatur enim obcaecati eius optio
-                quibusdam pariatur vel dolor praesentium vitae ducimus reprehenderit voluptates accusantium excepturi
-                suscipit molestiae nihil. Quasi. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium
-                nesciunt expedita unde, recusandae libero ipsam ullam accusantium quo, reiciendis officiis praesentium!
-                Tempora quidem laboriosam perferendis iste eaque. A, aut alias! Lorem ipsum dolor sit amet consectetur
-                adipisicing elit.</p>
-        </div>
-    </section>
-    <section class="A-propos">
-        <div>
-            <h2 class="titre-apropo">A propos<img src="image/logo-minia.svg" alt="" class="logo-minia"></h2>
-            <p>	De 1979 à 2004, la musique Pop rock aura vue son succès en déclin au Québec. En effet, de 1979 à 1989, elle représente environ 50% des écoutes. Après 1989, et ce jusqu’en 2004, elle à connue une baisse jusque 28.4% des écoutes au Québec. Soit une baisse de plus d’environ 20%. L’année phare à donc été 1983, avec un taux de 62.4% des écoutes aux Québec par rapport aux autres styles musicaux.<br><br>
-            Ce site a pour but de répondre à un projet universitaire de deuxième année de BUT en métiers du multimédia et de l’internet de data visualisation. Il compare la popularité de la musique pop et rock contre tous les styles musicaux au Québec. Il utilise les langages, HTML5, CSS, et JavaScript dont les librairies d3 et GSAP.
-
+        </section>
+        <section class="constats">
+            <div>
+                <h2 class="titre-constats">Nos Constats</h2>
+                <p>D’après les données</p>
+            </div>
+            <div class="constatext">
+                <p>Lorem ipsum dolor sit amet consectetur. Nibh dignissim amet velit at enim enim scelerisque dictum mi.
+                    Sollicitudin nisl porttitor nulla molestie hendrerit sed eget vitae. A amet sed amet erat pellentesque
+                    viverra. Massa sed mauris purus pharetra faucibus dui. Sollicitudin vitae sit risus facilisis praesent
+                    quis ultrices a.
+                    In sodales malesuada eu justo. Faucibus amet nibh bibendum odio. Ac lectus pulvinar tristique mollis
+                    sodales dapibus. Penatibus lacus nisl condimentum amet suscipit fermentum tristique nulla. Nisl nulla
+                    nisl justo in nulla quis. Purus elementum ut.lorem Lorem ipsum dolor sit, amet consectetur adipisicing
+                    elit. Laborum, possimus enim nemo fugiat molestiae saepe! Iure laboriosam repellat id aut. Laboriosam
+                    cum eveniet quas alias nulla animi beatae architecto esse! Lorem ipsum dolor sit amet consectetur,
+                    adipisicing elit. Id harum corporis assumenda amet quasi architecto, perferendis, blanditiis ullam
+                    officiis saepe ipsum odio aliquam nostrum dolorum, fuga delectus accusamus minus deleniti.lorem Lorem
+                    ipsum dolor sit amet, consectetur adipisicing elit. Maxime, ipsa aspernatur enim obcaecati eius optio
+                    quibusdam pariatur vel dolor praesentium vitae ducimus reprehenderit voluptates accusantium excepturi
+                    suscipit molestiae nihil. Quasi. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium
+                    nesciunt expedita unde, recusandae libero ipsam ullam accusantium quo, reiciendis officiis praesentium!
+                    Tempora quidem laboriosam perferendis iste eaque. A, aut alias! Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit.</p>
+            </div>
+        </section>
+        <section class="A-propos">
+            <div>
+                <h2 class="titre-apropo">A propos<img src="image/logo-minia.svg" alt="" class="logo-minia"></h2>
+                <p>	De 1979 à 2004, la musique Pop rock aura vue son succès en déclin au Québec. En effet, de 1979 à 1989, elle représente environ 50% des écoutes. Après 1989, et ce jusqu’en 2004, elle à connue une baisse jusque 28.4% des écoutes au Québec. Soit une baisse de plus d’environ 20%. L’année phare à donc été 1983, avec un taux de 62.4% des écoutes aux Québec par rapport aux autres styles musicaux. 
+                </p><br>
+                <p>Ce site a pour but de répondre à un projet universitaire de deuxième année de BUT en métiers du multimédia et de l’internet de data visualisation. Il compare la popularité de la musique pop et rock contre tous les styles musicaux au Québec. Il utilise les langages, HTML5, CSS, et JavaScript dont les librairies d3 et GSAP.
+                </p>
+                
 
                 
-            </p>
-        </div>
-    </section>
-    <section class="finale">
-        <div><img src="image/logo.svg" alt="" class="logo-final"></div>
-        <div>
-            <div>
-                <p class="mention-legale-titre">Éditeur</p>
-            <p>Le présent site, accessible à l’URL (“mettre l'URL”) est édité par : 
-                Idriss MEROUANE 
-                Nahina BOIREAU
-            </p> 
+                    
             </div>
+        </section>
+        <section class="finale">
+            <div><img src="image/logo.svg" alt="" class="logo-final"></div>
             <div>
-                <p class="mention-legale-titre">Hébergeur</p>
-                <p>Le site web est hébergé chez O2Switch, Chem. des Pardiaux, 63000 Clermont-Ferrand.
-    
-                Le code est aussi hébergé localement dans Github, 88 Colin P Kelly Jr St Sans Francisco California 94107</p>
-            </div>
-            <div>
-                <p class="mention-legale-titre">Contributions</p>
-                <p>Site réalisé par les éditeurs MEROUANE Idriss en charge du développement du site ainsi qu’à la réalisation des éléments graphiques et la rédaction et par BOIREAU Nahina en charge du développement du site ainsi qu’à la réalisation des éléments graphiques et la rédaction.
+                <p class="mention-legale-titre">Éditeur</p><p>Le présent site, accessible à l’URL (“mettre l'URL”) est édité par 
+                    Idriss MEROUANE 
+                    Nahina BOIREAU
                 </p>
-            </div>
-            <div>
-                <p class="mention-legale-titre">RGPD</p>
-                <p>Le traitement des données à caractère personnel conforme au Règlement Général sur la Protection des Données 2016/679 du 27 avril 2016 (RGPD”), n’est pas pris en compte car aucunes données personnelles sont acquises, stockées ou traitées.</p>
-            </div>
-            <div>
-                <p class="mention-legale-titre">Sources</p>
-                <p>L’intégralité des données utilisées pour les graphiques sont extraites d’une enquête du ministère de la culture et des communications du Québec incluse dans le documents intitulé “L’écoute et la consommation de la musique”  réalisée par Marie-Claude Lapointe professeure agrégée au Département d’études en loisir, culture et tourisme à l’Université du Québec à Trois-Rivières.
-                <br><br>
-                Les médias à disposition sont hébergés sur : <br>
-                - Youtube (voir conditions générales d’utilisations https://www.youtube.com/static?template=terms&hl=fr&gl=FR) <br>
-                - Spotify (voir conditions générales d’utilisations https://www.spotify.com/fr/legal/end-user-agreement/).
-                <br><br>
+                <p class="mention-legale-titre">Hébergeur</p><p>Le site web est hébergé chez O2Switch, Chem. des Pardiaux, 63000 Clermont-Ferrand.
+                    <br>Le code est aussi hébergé localement dans Github, 88 Colin P Kelly Jr St Sans Francisco California 94107
+                    </p>
+                <p class="mention-legale-titre">Contributions</p><p>Site réalisé par les éditeurs MEROUANE Idriss en charge du développement du site ainsi qu’à la réalisation des éléments graphiques et la rédaction et par BOIREAU Nahina en charge du développement du site ainsi qu’à la réalisation des éléments graphiques et la rédaction.
+                        </p>
+                <p class="mention-legale-titre">RGPD</p><p>Le traitement des données à caractère personnel conforme au Règlement Général sur la Protection des Données 2016/679 du 27 avril 2016 (RGPD”), n’est pas pris en compte car aucunes données personnelles sont acquises, stockées ou traitées.
+
+                        </p>
+                <p class="mention-legale-titre">Sources</p><p>L’intégralité des données utilisées pour les graphiques sont extraites d’une enquête du ministère de la culture et des communications du Québec incluse dans le documents intitulé “L’écoute et la consommation de la musique”  réalisée par Marie-Claude Lapointe professeure agrégée au Département d’études en loisir, culture et tourisme à l’Université du Québec à Trois-Rivières.<br><br>
+
+                Les médias à disposition sont hébergés sur :<br> 
+                - Youtube (voir conditions générales d’utilisations https://www.youtube.com/static?template=terms&hl=fr&gl=FR) 
+                - Spotify (voir conditions générales d’utilisations https://www.spotify.com/fr/legal/end-user-agreement/). <br><br>
+                    
+                    
                 Les images :<br> 
                 Pour la représentation de la musique pop, il s'agit d’une image libre de droit hébergé sur le site https://freemusicdownloads.world <br>
                 Pour la représentation de la musique rock, il s’agit d'une image libre de droit hébergé sur le site https://www.voyage-argentique.com 
-    
-    
-    
-                </p>
-    
-    
+                    
+                    
+                    
+                    
+
+                        </p>
+                
             </div>
             
             
-            
-            
-
            
-            
-        </div>
-
-    </section>
-</body>
-
-</html>
+        </section>
+    </body>    
+    </html>
+    

@@ -333,3 +333,6 @@ iframe{
     font-family: 'Kanit', sans-serif;
     font-size: 1.17vw;
 }
+
+.eqContainer{position:absolute; z-index:-399; width: 40%; height: 85%;}
+.dot{fill:#005eff;}

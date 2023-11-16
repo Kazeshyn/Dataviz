@@ -95,3 +95,78 @@ function displaySources(yearObject) {
 }
 
 //GSAP
+function makeDots(heights, gap, viewportHeight) {
+  var svgNS = "http://www.w3.org/2000/svg";
+  var eq = document.getElementById("eq");
+  var maxHeight = findMaxHeight();
+  var w_radius = (100 - heights.length * gap) / heights.length / 2;
+  var h_radius = (100 - maxHeight * gap) / maxHeight / 2;
+  var radius = Math.min(w_radius, h_radius);
+  
+  for( var i = 0; i < heights.length; i++ ) {
+    var h = heights[i];
+    var x = i * radius * 2 + i * gap + radius;
+    
+    for( var j = 0; j < h; j++ ) {
+      var yy = j * radius * 2 + j * gap;
+      var y = viewportHeight - radius - yy;
+      var id = 'dot_' + i + '_' + j;
+      
+      var dot = svgDot(id, x, y, radius);
+      eq.appendChild(dot);
+    }
+  }
+  
+  function svgDot(id, cx, cy, r) {  
+    var d = document.createElementNS(svgNS,"circle");
+    d.setAttributeNS(null,"id",id);
+    d.setAttributeNS(null,"cx",cx);
+    d.setAttributeNS(null,"cy",cy);
+    d.setAttributeNS(null,"r",r);
+    d.setAttributeNS(null,"class","dot");
+    
+    return d;
+  }
+  
+  function findMaxHeight() {
+    maxHeight = heights[0];
+    for( var i = 0; i < heights.length; i++ ) {
+      if( heights[i] > maxHeight ) {
+        maxHeight = heights[i];
+      }
+    }
+    
+    return maxHeight;
+  }
+}
+
+function animateDots(heights){
+  var lastStart = 0;
+  for( var i = 0; i < heights.length; i++ ) {
+    var height = heights[i];
+    var start = Math.ceil(Math.random() * 2);
+    if( start == lastStart ) {
+      start++;
+    }
+    animateColumn(i, start);
+    lastStart = start;
+  }
+  
+  function animateColumn(col, start) {
+    var tln = new TimelineMax({repeat:-1, yoyo:true});
+    var count = 0;
+    for (var i = start; i <= heights[col]; i++){
+      var dotid = '#dot_' + col + '_' + i;
+      tln.from(dotid, 0.4, {
+        autoAlpha: 0.5, 
+        ease: Sine.easeIn
+      }, count * 0.25);
+      count++;
+    }
+  }
+}
+
+var dotHeights = [5,5,6,6,5,4,4,4,6,6,8,6,7,8,9,8,7,7,7,8,9,10,11,11,12,11,10,10];
+
+makeDots(dotHeights, 0.75, 50);
+animateDots(dotHeights);

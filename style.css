@@ -160,6 +160,7 @@ img {
 	-webkit-transition: all .2s ease-in;
 	transition: all .2s ease-in;
 	transform: scale(1);
+	margin-top:12px;
 	
 }
 .scroll-graphique:before {
@@ -463,11 +464,10 @@ iframe {
 
 /*A Propos*/
 .A-propos {
-	/* display: grid;
-	grid-template-columns: 1fr;
-	grid-template-rows: 1fr;
-	justify-items: center; */
+	
 	display: flex;
+	align-items:center;
+	justify-content: center;
 	height: 100vh;
 	margin-left: 98px;
 	margin-right: 98px;

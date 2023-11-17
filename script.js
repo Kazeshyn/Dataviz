@@ -184,7 +184,111 @@ maTimeline.fromTo('h1', {
     duration: 1.5
   }
 )
+// GSAP p animation
+const maTimeline7 = gsap.timeline();
 
+maTimeline7.fromTo('p', {
+  x: 350,
+  opacity: 0
+},
+  {
+    x: 0,
+    opacity: 1,
+    duration: 1.5
+  }
+)
+
+// Ajoutez cette fonction à votre fichier script.js
+function startAnimation() {
+  const maTimeline2 = gsap.timeline();
+  const maTimeline3 = gsap.timeline();
+  const maTimeline4 = gsap.timeline();
+  const maTimeline5 = gsap.timeline();
+  const maTimeline6 = gsap.timeline();
+  
+
+
+  maTimeline2.fromTo(
+    'h2',
+    {
+      x: 350,
+      opacity: 0
+    },
+    {
+      x: 0,
+      opacity: 1,
+      duration: 1.5
+    }
+  );
+  maTimeline3.fromTo(
+    '.titre-graphique',
+    {
+      x: 350,
+      opacity: 0
+    },
+    {
+      x: 0,
+      opacity: 1,
+      duration: 1.5
+    }
+  );
+  maTimeline4.fromTo(
+    '.titre-constats',
+    {
+      x: 350,
+      opacity: 0
+    },
+    {
+      x: 0,
+      opacity: 1,
+      duration: 1.5
+    }
+  );
+  maTimeline5.fromTo(
+    '.titre-apropo',
+    {
+      x: 350,
+      opacity: 0
+    },
+    {
+      x: 0,
+      opacity: 1,
+      duration: 1.5
+    }
+  );
+  maTimeline6.fromTo(
+    '.logo-final',
+    {
+      x: 350,
+      opacity: 0
+    },
+    {
+      x: 0,
+      opacity: 1,
+      duration: 1.5
+    }
+  );
+  
+}
+
+// Obtenez une référence du bouton scroll-accueil
+const scrollAccueilButton = document.querySelector('.scroll-accueil');
+const scrollGraphiqueButton = document.querySelector('.scroll-poprock');
+const scrollConstatButton = document.querySelector('.scroll-graphique');
+const scrollApropoButton = document.querySelector('.scroll-constat');
+const scrollLogoButton = document.querySelector('.scroll-apropo');
+
+// Ajoutez un gestionnaire d'événements pour le clic sur le bouton
+scrollAccueilButton.addEventListener('click', startAnimation);
+scrollGraphiqueButton.addEventListener('click', startAnimation);
+scrollConstatButton.addEventListener('click', startAnimation);
+scrollApropoButton.addEventListener('click', startAnimation);
+scrollLogoButton.addEventListener('click', startAnimation);
+
+
+
+
+//GSAP La Musique Rock
 // appel au scroll
 $(function() {
   $('a[href*=#]').on('click', function(e) {

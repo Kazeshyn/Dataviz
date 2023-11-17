@@ -99,15 +99,15 @@ h2 {
 	grid-template-rows: 1fr;
 	grid-column-gap: 50px;
 	grid-row-gap: 50px;
-	margin-top: 100px;
+	margin-top: 50px;
 	margin-bottom: 100px;
 	margin-left: 100px;
 	margin-right: 100px;
 }
 
 .dim {
-	width: 11%;
-	height: 53px;
+	width: 8%;
+	height: 45px;
 	margin: 0;
 	background-color: blueviolet;
 	font-family: 'Kanit', sans-serif;
@@ -137,10 +137,11 @@ nav {
 
 /*légende*/
 .titre-legende {
-	color: white;
+	color:black;
 	font-family: 'Kanit', sans-serif;
 	font-size: 1.17vw;
 	text-decoration: underline;
+	margin-right: 40px;
 }
 
 .bleu-poprock {
@@ -149,6 +150,7 @@ nav {
 	border-radius: 5px;     /* Remplacez cette valeur par la hauteur souhaitée */
 	background-color: #02DED8;
 	float: left;
+    /* margin-left: 10px ; */
 }
 
 .rouge-others {
@@ -157,17 +159,28 @@ nav {
 	border-radius: 5px;     /* Remplacez cette valeur par la hauteur souhaitée */
 	background-color: #FF3030;
 	float: left;
+    margin-left: 15px;
 }
 
 .text-legende {
-	margin-left: 40px;
+	margin-left: 10px;
+}
+
+.wrapper {
+
+    display: flex;
+    height: fit-content;
+    align-items: center;
+    flex-direction: row;
+	width: 100%;
+
 }
 
 /*graphic*/
 .titre-graphic {
 	margin-right: 100px;
 	margin-left: 100px;
-	margin-top: 70px;
+	margin-top: 50px;
 	display: flex;
 }
 
@@ -188,7 +201,7 @@ iframe {
 	font-family: 'Kanit', sans-serif;
 	font-size: 1.17vw;
 	text-align: center;
-	text-decoration: underline #02DED8;
+	/* text-decoration: underline #02DED8; */
 }
 
 /* #my_dataviz{
@@ -233,14 +246,16 @@ iframe {
 
 /*A Propos*/
 .A-propos {
-	display: grid;
+	/* display: grid;
 	grid-template-columns: 1fr;
 	grid-template-rows: 1fr;
-	justify-items: center;
+	justify-items: center; */
+	display: flex;
+	height: 100vh;
 	margin-left: 98px;
 	margin-right: 98px;
-	margin-top: 100px;
-	margin-bottom: 100px;
+	/* margin-top: 100px;
+	margin-bottom: 100px; */
 }
 
 .titre-apropo {
@@ -274,22 +289,23 @@ iframe {
 
 /*Final*/
 .finale {
-	display: grid;
+	/* display: grid;
 	grid-template-columns: 1fr;
 	grid-template-rows: repeat(2, 1fr);
 	grid-column-gap: 56px;
-	grid-row-gap: 0px;
+	grid-row-gap: 0px; */
 	margin-right: 100px;
 	margin-left: 100px;
 }
 
 .logo-final {
-	display: grid;
-	place-items: center;
+	display: flex;
+	align-items: center;
 	width: 378px;
 	height: 366px;
 	margin-top: 20px;
 	margin-bottom: 20px;
+	margin: auto;
 }
 
 .finale p {
@@ -323,4 +339,22 @@ iframe {
 	transform: translateY(-50%);
 	-webkit-box-sizing: content-box;
 	box-sizing: content-box;
+}
+
+.sourcegraph {
+
+	margin-top: 0;
+	margin-bottom: 0;
+
+}
+
+a {
+
+	text-decoration: none;
+	color: white;
+
+}
+
+.divlogofinal {
+	height: fit-content;
 }

@@ -90,7 +90,7 @@ function displaySources(yearObject) {
   const paragrapheSources = document.querySelector('.sourcelink'); // Remplacez par la classe réelle
 
   if (paragrapheSources) {
-    paragrapheSources.innerHTML = `<p class="sourcelink">Source : ${musicSources}</p>`;
+    paragrapheSources.innerHTML = `<p class="sourcelink">Source : <a href="${musicSources}">${musicSources}</a></p>`;
   }
 }
 

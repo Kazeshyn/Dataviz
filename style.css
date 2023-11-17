@@ -109,19 +109,21 @@ h2 {
 	width: 8%;
 	height: 45px;
 	margin: 0;
-	background-color: blueviolet;
+	background-color: rgb(162, 62, 255);
 	font-family: 'Kanit', sans-serif;
 	font-size: 2vw;
 	color: white;
 	text-shadow: 5px 5px 5px black;
 	border: none;
-	border-radius: 18px;
+	border-radius: 12px;
 	cursor: pointer;
+	
 }
 
 /* Ajoutez des styles supplémentaires ou remplacez des styles spécifiques si nécessaire */
 .dim:hover {
-	background-color: rgb(90, 21, 154);
+	background-color: rgb(83, 0, 161);
+	transition: all 1s ease-out;
 }
 
 .dim:active {
@@ -203,12 +205,6 @@ iframe {
 	text-align: center;
 	/* text-decoration: underline #02DED8; */
 }
-
-/* #my_dataviz{
-    display:flex;
-    width:100%;
-    height:100%;
-} */
 
 /*Constats*/
 .constats {

@@ -184,3 +184,11 @@ maTimeline.fromTo('h1', {
     duration: 1.5
   }
 )
+
+// appel au scroll
+$(function() {
+  $('a[href*=#]').on('click', function(e) {
+    e.preventDefault();
+    $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
+  });
+});

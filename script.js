@@ -181,6 +181,6 @@ maTimeline.fromTo('h1', {
   {
     x: 0,
     opacity: 1,
-    duration: 1
+    duration: 1.5
   }
 )

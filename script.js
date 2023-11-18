@@ -197,8 +197,7 @@ maTimeline7.fromTo('p', {
     duration: 1.5
   }
 )
-
-// Ajoutez cette fonction à votre fichier script.js
+// permettre que l'animation se fasse au bouton du scroll
 function startAnimation() {
   const maTimeline2 = gsap.timeline();
   const maTimeline3 = gsap.timeline();
@@ -271,14 +270,14 @@ function startAnimation() {
   
 }
 
-// Obtenez une référence du bouton scroll-accueil
+// lorsqu'on clique sur le bon bouton
 const scrollAccueilButton = document.querySelector('.scroll-accueil');
 const scrollGraphiqueButton = document.querySelector('.scroll-poprock');
 const scrollConstatButton = document.querySelector('.scroll-graphique');
 const scrollApropoButton = document.querySelector('.scroll-constat');
 const scrollLogoButton = document.querySelector('.scroll-apropo');
 
-// Ajoutez un gestionnaire d'événements pour le clic sur le bouton
+// gestionnaire d'événement
 scrollAccueilButton.addEventListener('click', startAnimation);
 scrollGraphiqueButton.addEventListener('click', startAnimation);
 scrollConstatButton.addEventListener('click', startAnimation);
@@ -288,7 +287,6 @@ scrollLogoButton.addEventListener('click', startAnimation);
 
 
 
-//GSAP La Musique Rock
 // appel au scroll
 $(function() {
   $('a[href*=#]').on('click', function(e) {

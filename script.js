@@ -60,7 +60,10 @@ function drawPieChart(yearObject) {
     )
     .attr('fill', function (d) { return (color(d.data[1])) })
     .style("stroke-width", "2px")
-    .style("opacity", 0.7)
+    .style("opacity", 0.0)
+    .transition()
+    .style("opacity",1)
+    .duration(800)
 
 }
 //Affichage des iframes
@@ -90,7 +93,7 @@ function displaySources(yearObject) {
   const paragrapheSources = document.querySelector('.sourcelink'); // Remplacez par la classe réelle
 
   if (paragrapheSources) {
-    paragrapheSources.innerHTML = `<p class="sourcelink">Source : <a href="${musicSources}">${musicSources}</a></p>`;
+    paragrapheSources.innerHTML = `<p class="sourcelink">Source : <i><a href="${musicSources}">${musicSources}</a></i></p>`;
   }
 }
 
@@ -188,7 +191,7 @@ maTimeline.fromTo('h1', {
 const maTimeline7 = gsap.timeline();
 
 maTimeline7.fromTo('p', {
-  x: 350,
+  x: 100,
   opacity: 0
 },
   {
@@ -210,7 +213,7 @@ function startAnimation() {
   maTimeline2.fromTo(
     'h2',
     {
-      x: 350,
+      x: 100,
       opacity: 0
     },
     {
@@ -222,7 +225,7 @@ function startAnimation() {
   maTimeline3.fromTo(
     '.titre-graphique',
     {
-      x: 350,
+      x: 100,
       opacity: 0
     },
     {
@@ -234,7 +237,7 @@ function startAnimation() {
   maTimeline4.fromTo(
     '.titre-constats',
     {
-      x: 350,
+      x: 100,
       opacity: 0
     },
     {
@@ -246,7 +249,7 @@ function startAnimation() {
   maTimeline5.fromTo(
     '.titre-apropo',
     {
-      x: 350,
+      x: 100,
       opacity: 0
     },
     {
@@ -258,7 +261,7 @@ function startAnimation() {
   maTimeline6.fromTo(
     '.logo-final',
     {
-      x: 350,
+      x: 100,
       opacity: 0
     },
     {
@@ -270,22 +273,19 @@ function startAnimation() {
   
 }
 
-// lorsqu'on clique sur le bon bouton
-const scrollAccueilButton = document.querySelector('.scroll-accueil');
-const scrollGraphiqueButton = document.querySelector('.scroll-poprock');
-const scrollConstatButton = document.querySelector('.scroll-graphique');
-const scrollApropoButton = document.querySelector('.scroll-constat');
-const scrollLogoButton = document.querySelector('.scroll-apropo');
-
-// gestionnaire d'événement
-scrollAccueilButton.addEventListener('click', startAnimation);
-scrollGraphiqueButton.addEventListener('click', startAnimation);
-scrollConstatButton.addEventListener('click', startAnimation);
-scrollApropoButton.addEventListener('click', startAnimation);
-scrollLogoButton.addEventListener('click', startAnimation);
-
-
-
+ // lorsqu'on clique sur le bon bouton
+ const scrollAccueilButton = document.querySelector('.scroll-accueil');
+ const scrollGraphiqueButton = document.querySelector('.scroll-poprock');
+ const scrollConstatButton = document.querySelector('.scroll-graphique');
+ const scrollApropoButton = document.querySelector('.scroll-constat');
+ const scrollLogoButton = document.querySelector('.scroll-apropo');
+ 
+ // gestionnaire d'événement
+ scrollAccueilButton.addEventListener('click', startAnimation);
+ scrollGraphiqueButton.addEventListener('click', startAnimation);
+ scrollConstatButton.addEventListener('click', startAnimation);
+ scrollApropoButton.addEventListener('click', startAnimation);
+ scrollLogoButton.addEventListener('click', startAnimation);
 
 // appel au scroll
 $(function() {

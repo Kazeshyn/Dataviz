@@ -55,7 +55,7 @@ img {
 	
 	position: absolute;
 	bottom: 30px;
-	left: 50%;
+	left: 48.8%;
 	margin-left:-16 px;
 	display: block;
 	width: 32px;
@@ -68,7 +68,8 @@ img {
 	animation: bounce 2s infinite 2s;
 	-webkit-transition: all .2s ease-in;
 	transition: all .2s ease-in;
-	transform: scale(1)
+	transform: scale(1);
+	cursor:pointer;
 	
 }
   
@@ -106,7 +107,7 @@ img {
 	
 	position: absolute;
 	bottom: 30px;
-	left: 50%;
+	left: 48.8%;
 	margin-left:-16 px;
 	display: block;
 	width: 32px;
@@ -146,7 +147,7 @@ img {
   }
 .scroll-graphique{
 	position: absolute;
-	left: 50%;
+	left: 48.8%;
 	margin-left: -16px;
 	display: block;
 	width: 32px;
@@ -185,7 +186,7 @@ img {
   }
 .scroll-constat{
 	position: absolute;
-	left: 50%;
+	left: 48.8%;
 	margin-left: -16px;
 	display: block;
 	width: 32px;
@@ -224,7 +225,7 @@ img {
   }
 .scroll-apropo{
 	position: absolute;
-	left: 50%;
+	left: 48.8%;
 	margin-left: -16px;
 	display: block;
 	width: 32px;
@@ -594,7 +595,7 @@ iframe {
 
 a {
 
-	text-decoration: none;
+	/* text-decoration: none; */
 	color: white;
 
 }
